@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Michael Vu'
 SITENAME = 'Learn to build my J.A.R.V.I.S'
-SITEURL = ''
+SITEURL = 'https://my-jarvis.github.io'
 
 PATH = 'content'
 
@@ -33,9 +33,3 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
-MARKUP = ('md', 'ipynb')
-
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
-THEME = "/Users/michael/pelican-themes/elegant"
